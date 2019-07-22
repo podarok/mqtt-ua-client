@@ -22,5 +22,8 @@ Enjoy
 Report bugs if any https://github.com/podarok/mqtt-ua-client/issues/new
 
 ### Example setup
-![image](https://user-images.githubusercontent.com/563412/61614844-5d67b080-ac6d-11e9-927a-ba377c473622.png)
 
+Driver's device
+![image](https://user-images.githubusercontent.com/563412/61614844-5d67b080-ac6d-11e9-927a-ba377c473622.png)
+Rule for polling
+![image](https://user-images.githubusercontent.com/563412/61615135-f1397c80-ac6d-11e9-8385-e0de6513ffb7.png)

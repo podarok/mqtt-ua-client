@@ -20,3 +20,7 @@ Tasmota IR Bridge universal remote (in progress...)
 Enjoy
 
 Report bugs if any https://github.com/podarok/mqtt-ua-client/issues/new
+
+### Example setup
+![image](https://user-images.githubusercontent.com/563412/61614844-5d67b080-ac6d-11e9-927a-ba377c473622.png)
+

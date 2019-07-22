@@ -9,8 +9,8 @@ This is a MQTT Driver for Tasmota kind of devices.
 Supported switches as for now.
 
 ### TODO
-H801 5 channel dimmer support
-Tasmota IR Bridge universal remote (in progress...)
+ - H801 5 channel dimmer support
+ - Tasmota IR Bridge universal remote (in progress...)
 
 ### Quick Start
  - Import driver https://raw.githubusercontent.com/podarok/mqtt-ua-client/master/MQTT_UA_Client/mqttua.groovy into Custom Driver Hubitat section

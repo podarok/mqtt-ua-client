@@ -13,8 +13,7 @@ H801 5 channel dimmer support
 Tasmota IR Bridge universal remote (in progress...)
 
 ### Quick Start
- - Import driver https://raw.githubusercontent.com/podarok/mqtt-ua-client/master/MQTT_UA_Client/mqttua.groovy into 
- - Custom Driver Hubitat section
+ - Import driver https://raw.githubusercontent.com/podarok/mqtt-ua-client/master/MQTT_UA_Client/mqttua.groovy into Custom Driver Hubitat section
  - Add Device by chosing MQTT UA Client as a Driver
  - Fill in MQTT Broker, channel, ON/OFF messages, stat channel(for feedback)
  - Add device to Dashboard and chose Switch

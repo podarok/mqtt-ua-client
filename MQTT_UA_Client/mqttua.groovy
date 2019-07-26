@@ -16,17 +16,23 @@ metadata {
   input name: "statusfrom", type: "text", title: "Channel to get status from", description: "MQTT Channel used for getting status from", required: true, displayDuringSetup: false
   input name: "statuson", type: "text", title: "Status for switch ON", description: "Text used for getting status for ON state", required: true, displayDuringSetup: false
   input name: "statusoff", type: "text", title: "Status for switch OFF", description: "Text used for getting status for OFF state", required: true, displayDuringSetup: false
+  input name: "pollRate", type: "number", title: "Polling Rate", description: "Poll switch every X minutes. Set to 0 to disable.", required: true, defaultValue: "0"
  }
 
 }
 
+def updated(){
+    initialize()
+}
 
 def installed() {
  log.info "installed..."
+    initialize()
 }
 
 def initialize() {
- sendEvent(name: "checkInterval", value: 300)
+ state.pollRate = ((pollRate.toInteger())*60)
+ if (state.pollRate != 0) runIn (state.pollRate, poll)
  log.info device.getName()
 }
 
@@ -103,4 +109,5 @@ def poll() {
  } catch (e) {
   log.error e.message
  }
+ if (state.pollRate != 0) runIn(state.pollRate, poll)
 }

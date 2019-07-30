@@ -19,6 +19,7 @@ Supported:
  - Add Device by chosing respective one as a Driver
  - Fill in MQTT Broker, channel, ON/OFF messages, stat channel(for switch feedback)
  - Add device to Dashboard and chose Switch
+ 
 Enjoy
 
 Report bugs if any https://github.com/podarok/mqtt-ua-client/issues/new

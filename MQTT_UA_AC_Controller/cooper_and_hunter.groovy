@@ -10,6 +10,8 @@ metadata {
   capability "HealthCheck"
   capability "Polling"
   capability "Thermostat" // @see https://docs.hubitat.com/index.php?title=Driver_Capability_List#Thermostat
+  
+  command "jsonConfig", [[name:"Device Config", type: "JSON_OBJECT", description: "Paste config from MQTT"] ]
  }
  preferences {
   input name: "MQTTBroker", type: "text", title: "MQTT Broker Address", description: "Enter address of the broker, for example, tcp://192.168.1.71:1883", required: true, displayDuringSetup: true

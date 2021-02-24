@@ -1,0 +1,43 @@
+{
+   "name":"bedroom",
+   "mode_cmd_t":"climate/bedroom/mode/set",
+   "mode_stat_t":"climate/bedroom/mode/get",
+   "curr_temp_t":"climate/bedroom/temperature_in/get",
+   "temp_cmd_t":"climate/bedroom/temperature/set",
+   "temp_stat_t":"climate/bedroom/temperature/get",
+   "fan_mode_command_topic":"climate/bedroom/fanspeed/set",
+   "fan_mode_state_topic":"climate/bedroom/fanspeed/get",
+   "fan_modes":[
+      "l0",
+      "l1",
+      "l2",
+      "l3",
+      "l4",
+      "l5",
+      "l6"
+   ],
+   "uniq_id":"ChAC1921681148",
+   "pl_on":"on",
+   "pl_off":"off",
+   "swing_mode_state_topic":"climate/bedroom/swingvert/get",
+   "swing_mode_command_topic":"climate/bedroom/swingvert/set",
+   "power_state_topic":"climate/bedroom/power/get",
+   "power_command_topic":"climate/bedroom/power/set",
+   "device":{
+      "name":"AC Livingroom",
+      "manufacturer":"Cooper&Hunter",
+      "sw_version":"v1.3",
+      "via_device":"mqtt",
+      "model":"Nordic Evo 2",
+      "identifiers":[
+         "Ch-s09ftn-e2wf"
+      ]
+   },
+   "modes":[
+      "off",
+      "heat",
+      "auto",
+      "cool",
+      "dry"
+   ]
+}
